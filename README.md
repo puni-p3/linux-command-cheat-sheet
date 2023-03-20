@@ -13,6 +13,9 @@ Linux Command Cheat Sheet
 
 `du -sh -- */ | sort -rh`  # Directories only
 
+### System’s disk space usage.
+`df -h` # Check Disk Space
+
 ### Copy file/folder from remote to local using scp
 `scp -i ec2key.pem username@ec2ip:/remote/path/to/file.az /local/path/to/`
 
