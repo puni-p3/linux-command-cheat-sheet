@@ -52,3 +52,9 @@ In case permission denied
 `chmod 700 /home/ec2-user/.ssh`
 
 `chmod 600 /home/ec2-user/.ssh/authorized_keys`
+
+### PORT (Find node process)
+
+`ps aux | grep node`  # All node processes
+
+`lsof -n -i:3005` # Specific port
