@@ -31,3 +31,24 @@ https://stackoverflow.com/a/9441027
 `mv final final.gz`
 
 https://stackoverflow.com/a/40666202
+
+### SSH
+
+`ssh -i private.pem user@ip` # ssh connect
+
+#### Generate public key from private key
+`ssh-keygen -f private.pem -y > public.pub`
+
+#### AWS specific
+
+Add public key
+
+`vim .ssh/authorized_keys`
+
+In case permission denied
+
+`chmod go-w /home/ec2-user`
+
+`chmod 700 /home/ec2-user/.ssh`
+
+`chmod 600 /home/ec2-user/.ssh/authorized_keys`
