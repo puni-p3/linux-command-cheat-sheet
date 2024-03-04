@@ -58,3 +58,9 @@ In case permission denied
 `ps aux | grep node`  # All node processes
 
 `lsof -n -i:3005` # Specific port
+
+### Certbot
+
+`sudo certbot --nginx`
+
+`sudo certbot certificates`
