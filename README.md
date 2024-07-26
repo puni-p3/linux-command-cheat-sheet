@@ -22,6 +22,10 @@ Linux Command Cheat Sheet
 #### Recursively download all files
 `scp -ri ec2key.pem username@ec2ip:/remote/path /local/path/to/`
 
+#### Upload
+`scp -i ec2key.pem /path/<file>.zip username@ec2ip:/remote/path`
+
+
 `man scp` # More info
 
 https://stackoverflow.com/a/9441027
