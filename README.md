@@ -68,3 +68,9 @@ In case permission denied
 `sudo certbot --nginx`
 
 `sudo certbot certificates`
+
+
+### Zip
+`zip -r <file-name>.zip /<path-to-zip>`
+
+`unzip -o <file-name>.zip -d /path/`
